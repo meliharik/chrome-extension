@@ -1,0 +1,26 @@
+{
+    "name": "Crypto Tracker",
+    "short_name": "Crypto Tracker",
+    "version": "1.0.0",
+    "description": "There are 100 cryptocurrencies available. You can see current prices.",
+    
+    "host_permissions": [
+        "<all_urls>"
+    ],
+
+    "content_security_policy": {
+        "extention_pages": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+    },
+    "action": {
+        "default_popup":"index.html",
+        "default_icon":"/icons/bitcoin.png"
+    },
+
+    "icons": {
+        "16": "icons/bitcoin.png",
+        "32": "icons/bitcoin.png",
+        "64": "icons/bitcoin.png",
+        "128": "icons/bitcoin.png"
+    },
+    "manifest_version": 3
+}

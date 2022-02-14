@@ -1,0 +1,11 @@
+{
+    "name": "First Chrome Extension Name",
+    "short_name": "First Chrome Extension Short Name",
+    "description": "Chrome Extension description",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "/icons/Icon-192.png"
+    },
+    "manifest_version": 3
+}
